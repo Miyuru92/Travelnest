@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Trip Generator</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="images/travel.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Random Trip Generator</h1>
+
+<select id="travelType">
+    <option>Adventure</option>
+    <option>Relaxation</option>
+    <option>Cultural</option>
+    <option>Nature</option>
+</select>
+
+<select id="budgetRange">
+    <option>Low</option>
+    <option>Medium</option>
+    <option>High</option>
+</select>
+
+<button onclick="generateTrip()">
+Generate Trip
+</button>
+
+<button onclick="generateTrip()">
+Surprise Me Again
+</button>
+
+<button onclick="saveWishlist()">
+Save To Wishlist
+</button>
+
+<div id="tripResult"></div>
+
+<script src="js/data.js"></script>
+<script src="js/generator.js"></script>
+
+</body>
+</html>

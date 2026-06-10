@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Destination Explorer</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="images/travel.png">
+<link rel="stylesheet"
+href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+<h1>TravelNest</h1>
+</nav>
+
+<h2>Destination Explorer</h2>
+
+<input
+type="text"
+id="search"
+placeholder="Search destination">
+
+<select id="continent">
+
+<option value="all">
+All Continents
+</option>
+
+<option value="Europe">
+Europe
+</option>
+
+<option value="Asia">
+Asia
+</option>
+
+<option value="North America">
+North America
+</option>
+
+</select>
+
+<div id="cards"></div>
+
+<div id="modal" class="modal">
+
+<div class="modal-content">
+
+<span id="close">&times;</span>
+
+<div id="modalBody"></div>
+
+</div>
+
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/explorer.js"></script>
+
+</body>
+</html>
