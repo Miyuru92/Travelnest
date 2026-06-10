@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Mood</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="images/travel.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Travel Mood</h1>
+
+<h2>Ambient Sounds</h2>
+
+<button onclick="playBeach()">Beach</button>
+<button onclick="playForest()">Forest</button>
+<button onclick="stopAudio()">Stop</button>
+
+<br><br>
+
+<h2>Visited Destinations</h2>
+
+<select id="visitedDestination">
+    <option>Paris</option>
+    <option>Tokyo</option>
+    <option>Bali</option>
+    <option>New York</option>
+</select>
+
+<button onclick="saveVisited()">
+Mark as Visited
+</button>
+
+<div id="visitedResult"></div>
+
+<script src="js/mood.js"></script>
+
+</body>
+</html>

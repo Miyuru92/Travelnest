@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TravelNest Home</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="images/travel.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<nav>
+    <h1>TravelNest</h1>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="explorer.html">Explorer</a></li>
+        <li><a href="budget.html">Budget</a></li>
+        <li><a href="generator.html">Generator</a></li>
+        <li><a href="mood.html">Mood</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div>
+        <h2>Explore Amazing Destinations</h2>
+        <p id="quote">Travel Quote Here</p>
+
+        <h3>Destination Of The Day</h3>
+        <p id="destinationDay"></p>
+    </div>
+
+    <div>
+        <img src="https://picsum.photos/500/300" alt="Travel Image">
+    </div>
+</section>
+
+<footer>
+    <h3>Newsletter</h3>
+
+    <input type="email" id="email" placeholder="Enter Email">
+
+    <button onclick="saveEmail()">
+        Subscribe
+    </button>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

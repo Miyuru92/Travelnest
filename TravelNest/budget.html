@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Budget Planner</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="images/travel.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Trip Budget Planner</h1>
+
+<input type="text" id="destination" placeholder="Destination">
+
+<input type="number" id="days" placeholder="Number of Days">
+
+<input type="number" id="dailyBudget" placeholder="Daily Budget">
+
+<button onclick="calculateBudget()">
+    Calculate
+</button>
+
+<button onclick="saveBudget()">
+    Save Trip
+</button>
+
+<div id="result"></div>
+
+<script src="js/budget.js"></script>
+
+</body>
+</html>
