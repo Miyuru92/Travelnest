@@ -4,7 +4,7 @@ const destinations = [
 name:"Paris",
 country:"France",
 continent:"Europe",
-image:"https://picsum.photos/300?1",
+image: "images/paris.webp",
 description:"The city of lights and romance.",
 attractions:["Eiffel Tower","Louvre Museum","Notre Dame"],
 cost:"Medium"
@@ -14,7 +14,7 @@ cost:"Medium"
 name:"Tokyo",
 country:"Japan",
 continent:"Asia",
-image:"https://picsum.photos/300?2",
+image: "images/tokyo.avif",
 description:"A blend of tradition and technology.",
 attractions:["Tokyo Tower","Shibuya","Akihabara"],
 cost:"High"
@@ -24,7 +24,7 @@ cost:"High"
 name:"Bali",
 country:"Indonesia",
 continent:"Asia",
-image:"https://picsum.photos/300?3",
+image: "images/bali.jpg",
 description:"Beautiful beaches and culture.",
 attractions:["Ubud","Kuta Beach","Tanah Lot"],
 cost:"Low"
@@ -34,7 +34,7 @@ cost:"Low"
 name:"New York",
 country:"USA",
 continent:"North America",
-image:"https://picsum.photos/300?4",
+image: "images/newyork.jpg",
 description:"The city that never sleeps.",
 attractions:["Times Square","Central Park","Statue of Liberty"],
 cost:"High"
